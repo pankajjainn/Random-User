@@ -1,1 +1,1 @@
-# Random-User
+# Random User Application
