@@ -33,16 +33,6 @@ function displayUser(user) {
   ).innerHTML = `Address: ${user.location.city}, ${user.location.state}, ${user.location.country}`;
 }
 
-// function pageLoading() {
-//   let storedUser = localStorage.getItem("random-user");
-//   if (storedUser) {
-//     let users = JSON.parse(storedUser);
-//     displayUser(users);
-//   } else {
-//     fetchUser();
-//   }
-// }
-
 let btn = document.querySelector("#new-user");
 
 btn.addEventListener("click", fetchUser);
